@@ -4,17 +4,20 @@
 }
 
 .page-header {
-  margin-left: 10%;
   width: 100%;
   display: inline-block;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+}
+
+.page-header img {
+  margin-right: 1em;
 }
 
 .content {
   margin-left: 10%;
   margin-right: 10%;
   background-color: white;
-  height: 110em;
+  height: 125em;
 }
 
 .main-image {
@@ -109,20 +112,60 @@ border: .5em solid #D3FDCE;
 }
 
 #add-to-cart {
-  display: block;
-  width: 40%;
-  padding-top: .7em;
-  padding-bottom: .7em;
+  width: 100%;
+  padding: .7em 0 .7em 0;
   background-color: #8AE65C;
   color: white;
   border: .5em solid #D3FDCE;
 }
 
 .fav-list {
-  width: 25%;
-  float: right;
+  margin-left: -10px;
   @extend clearfix;
-  background-color: white;
   border: .5em solid #E6E6E6;
-  margin-right: 10%;
+  padding: .5em 11.3em .5em 11.3em;
+  margin-top: 3em;
+  margin-left: -10px;
+}
+
+.store-related {
+  border: .5em solid #D5EEFC;
+  margin-top: 3em;
+  margin-left: -10px;
+}
+
+.store .store-pic {
+  margin-top: 5%
+}
+
+.store {
+  text-align: center;
+}
+
+.image-footer {
+  margin-left: 13em;
+}
+
+#zoom {
+  margin-left: 13em;
+}
+
+#item-tabs {
+  text-align: center;
+  border-bottom: .1em solid grey;
+}
+
+.tab-details, .tab-review, .tab-shipping {
+  width: 26%;
+  padding: .5em 1em .5em 1em;
+  display: inline-block;
+  border-top: .1em solid grey;
+  border-right: .1em solid grey;
+  border-left: .1em solid grey;
+}
+
+#discription-text {
+  text-align:center;
+  padding-right: 2em;
+  padding-left: 2em;
 }

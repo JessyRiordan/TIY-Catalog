@@ -21,7 +21,7 @@
         <img src="http://lorempixel.com/75/75/abstract">
       </a>
       <h4 class='shop-name col-lg-2'>
-        <a href="#">Shop Title</a>
+        <a href="#">{{shop.name}}</a>
         <button>Favorite</button>
       </h4>
       <!-- .shop-name -->
@@ -52,7 +52,7 @@
           }
         </style>
         <a href="#" class="store-items">
-          <big>738</big>
+          <big>{{shop.total_listings}}</big>
           <br>
           <small>items</small>
         </a>
@@ -204,7 +204,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -214,7 +214,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -224,7 +224,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -234,7 +234,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
         </nav>
@@ -247,7 +247,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -257,7 +257,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -267,7 +267,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -277,7 +277,7 @@
             <a href='#'>
               <p>{{product.title}}</p>
             </a>
-            <p>{{product.price}}</p>
+            <p>${{product.price}} {{product.currency}}</p>
           </div>
           <!-- .item -->
         </nav>

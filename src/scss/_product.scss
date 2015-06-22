@@ -1,0 +1,171 @@
+.container {
+  background-color: #E6E5DD;
+  width: 100%;
+}
+
+.page-header {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+.page-header img {
+  margin-right: 1em;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  height: 125em;
+}
+
+.main-image {
+  margin-top: 3%;
+}
+
+.slideshow {
+position: relative;
+}
+
+.slideshow > img {
+width: 100%
+}
+
+.slideshow > a {
+position: absolute;
+font-size: 400%;
+text-decoration: none;
+top: 0; bottom: 0;  //this makes it small to parent element//
+}
+
+.slideshow > a::before {
+content: “&”;
+position: absolute;
+}
+
+.slideshow > a[rel=“prev”] {
+left: 0;
+right: 50%;
+}
+
+.slideshow > a[rel=“next”] {
+right: 0;
+right: 50%;
+float: right;
+}
+
+.slideshow > a span {
+display: none;
+}
+
+.product-title {
+  width: 20%;
+}
+
+.product-basics {
+margin-top: 2.4em;
+margin-left: -10px;
+border: .5em solid #D3FDCE;
+}
+
+.product-basics h3 {
+  font-family: serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.product-price {
+  display: inline-block;
+}
+
+.product-price h3 {
+  display: inline-block;
+  padding-right: 1em;
+  width: 25%;
+}
+
+.product-price button {
+  margin-left: 4em;
+  font-size: .9em;
+}
+
+.product-quantity {
+  display: block;
+  margin-top: 1em;
+}
+
+.product-device {
+  margin-top: 1em;
+}
+
+.product-overview h4 {
+  font-size: 1em;
+}
+
+.product-overview li {
+  list-style: inherit;
+}
+
+.gift-card {
+  margin-bottom: 2em;
+}
+
+#add-to-cart {
+  width: 100%;
+  padding: .7em 0 .7em 0;
+  background-color: #8AE65C;
+  color: white;
+  border: .5em solid #D3FDCE;
+}
+
+.fav-list {
+  margin-left: -10px;
+  @extend clearfix;
+  border: .5em solid #E6E6E6;
+  padding: .5em 11.3em .5em 11.3em;
+  margin-top: 3em;
+  margin-left: -10px;
+}
+
+.store-related {
+  border: .5em solid #D5EEFC;
+  margin-top: 3em;
+  margin-left: -10px;
+}
+
+.store .store-pic {
+  margin-top: 5%
+}
+
+.store {
+  text-align: center;
+}
+
+.image-footer {
+  margin-left: 13em;
+}
+
+#zoom {
+  margin-left: 13em;
+}
+
+#item-tabs {
+  text-align: center;
+  border-bottom: .1em solid grey;
+}
+
+.tab-details, .tab-review, .tab-shipping {
+  width: 26%;
+  padding: .5em 1em .5em 1em;
+  display: inline-block;
+  border-top: .1em solid grey;
+  border-right: .1em solid grey;
+  border-left: .1em solid grey;
+}
+
+#discription-text {
+  text-align:center;
+  padding-right: 2em;
+  padding-left: 2em;
+}
